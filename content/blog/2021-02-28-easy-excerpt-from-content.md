@@ -1,23 +1,15 @@
 ---
 createdAt: 2021-02-28
-title: Easy excerpt from content
+title: Fácil resumo do conteúdo
 ---
-
-You can add an excerpt easily by writing `<!--MORE-->` in lowercase in the content.
+Você pode adicionar um resumo facilmente escrevendo `<!--MORE-->` em lowercase no conteúdo.
 
 <!--more-->
-(It is written right before this)
 
-Then continue on with the rest of the **markdown** content.
+`<!--more-->`
 
-```js{4,7}[posts.vue]
-computed: {
-  placeholderClasses() {
-    const classes = ['w-full','w-2/3','w-5/6'];
-    return [...Array.from(
-      { length: this.amount },
-      (value, index) => classes[index % classes.length]
-    )]; // repeats classes after one another
-  }
-},
-```
+> (Nesse exemplo está escrito antes disso - a partir desse ponto apenas quem abrir o conteúdo todo poderá ler)
+
+Em seguida, continue com o resto do conteúdo de **markdown**.
+
+![](https://cdn.pixabay.com/photo/2017/05/12/08/29/coffee-2306471_960_720.jpg)
