@@ -2,14 +2,14 @@
 createdAt: 2021-02-28
 title: Fácil resumo do conteúdo
 ---
-Você pode adicionar um resumo facilmente escrevendo `<!--MORE-->` em lowercase no conteúdo.
+Você pode estabelecer um resumo facilmente escrevendo `<!--MORE-->` em lowercase no conteúdo.
 
 <!--more-->
 
-`<!--more-->`
+`<!--more--> (exemplo visual - no caso real ele não aparece de fato)`
 
-> (Nesse exemplo está escrito antes disso - a partir desse ponto apenas quem abrir o conteúdo todo poderá ler)
+> Nesse exemplo, a partir desse ponto apenas quem abrir o conteúdo todo poderá ver o restante.
 
-Em seguida, continue com o resto do conteúdo de **markdown**.
+Pronto, agora é só continuar com o resto do conteúdo de **markdown**.
 
 ![](https://cdn.pixabay.com/photo/2017/05/12/08/29/coffee-2306471_960_720.jpg)
