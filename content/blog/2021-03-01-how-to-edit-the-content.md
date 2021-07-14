@@ -1,24 +1,17 @@
 ---
 createdAt: 2021-03-01
 title: Como editar o conteúdo
-description: E o que esperar ao executar um CMS baseado em repo
+description: E o que esperar ao executar um CMS baseado em repositório
 ---
-It is easy to write **markdown**-*enabled* content like this placeholder text, with support for images and even code snippets.
+It is easy to write -*enabled* content like this placeholder text, with support for images and even code snippets.
 
-If you are in local development-mode (`npm run dev`) you can double-click here to edit and save this page quickly.
+É fácil escrever conteúdo habilitado para **markdown** como este texto de *placeholder*, com suporte para imagens e até mesmo trechos de código.
 
-```javascript
-formatDate(dateString) {
-  const date = new Date(dateString)
-  return date.toLocaleDateString(process.env.lang) || ''
-}
-```
-
-![Placeholder Kitten](https://media.istockphoto.com/photos/close-up-of-steaming-cup-of-coffee-or-tea-on-vintage-table-early-on-picture-id1137365972?k=6&m=1137365972&s=612x612&w=0&h=m61gLuI0gAOh0IRbBxYzfyWgRbXUUTuZHf5sisVArK4=)
+![Placeholder Coffee](https://media.istockphoto.com/photos/close-up-of-steaming-cup-of-coffee-or-tea-on-vintage-table-early-on-picture-id1137365972?k=6&m=1137365972&s=612x612&w=0&h=m61gLuI0gAOh0IRbBxYzfyWgRbXUUTuZHf5sisVArK4=)
 
 ### Steps to take:
 
-1. **Go to admin:** You can navigate to the admin-page by typing in `/admin` after the URL your browser’s omnibox above.
-2. **Navigate to Blog:** In blog you can edit existing blog posts like this one, remove it, or create new ones. They’ll be added to a pull request by Netlify CMS that you merge in the next step by saving.
-3. **Save your changes:** After you have edited the content on the site, you need to save. This will trigger Netlify CMS to merge the PR to the main branch (it will show up in your git log).
-4. **Grab a coffee:** After saving, you have to wait for Netlify to build your main branch (which probably takes 2-5 minutes, depending on your setup). If you’re a control-freak, login to Netlify to watch your build run and see when it is published. You can also publish older commits from there."
+1. **Vá para admin:** Você pode navegar para a página de admin digitando `https://mystifying-brahmagupta-cac4b8.netlify.app/admin` na omnibox de seu navegador acima.
+2. **Navegue até Blog:** No blog, você pode editar postagens de blog existentes como esta, removê-las ou criar novas. Isso criará uma branch (ramo) dentro do projeto, que será mesclada quando for salva na próxima etapa.
+3. **Salve suas alterações:** Depois de editar o conteúdo do site, você precisa salvá-lo. Isso irá acionar o Netlify CMS para mesclar o conteúdo (branch) ao projeto principal.
+4. **Pegue um café:** Depois de salvar, você tem que esperar o Netlify construir sua branch principal (o que provavelmente leva de 2 a 5 minutos, dependendo de sua configuração). Se você for um maníaco por controle, faça login no Netlify para assistir a execução de sua compilação e ver quando ela é publicada. Lá você também pode publicar commits (versões) mais antigos.
