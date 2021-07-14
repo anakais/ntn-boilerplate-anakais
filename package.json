@@ -1,8 +1,8 @@
 {
-  "name": "ntn-boilerplate",
+  "name": "ntn-boilerplate-anakais",
   "version": "2.1.0",
   "description": "Nuxt-Tailwind-NetlifyCMS boilerplate",
-  "author": "Sven Parker <sven@svenparker.com> (https://svenparker.com)",
+  "author": "Ale Nakai (https://github.com/anakais)",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/knogobert/ntn-boilerplate#readme"
+    "url": "https://github.com/anakais/ntn-boilerplate-anakais#readme"
   },
   "license": "MIT",
   "dependencies": {
