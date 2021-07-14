@@ -3,8 +3,6 @@ createdAt: 2021-03-01
 title: Como editar o conteúdo
 description: E o que esperar ao executar um CMS baseado em repositório
 ---
-It is easy to write -*enabled* content like this placeholder text, with support for images and even code snippets.
-
 É fácil escrever conteúdo habilitado para **markdown** como este texto de *placeholder*, com suporte para imagens e até mesmo trechos de código.
 
 ![Placeholder Coffee](https://media.istockphoto.com/photos/close-up-of-steaming-cup-of-coffee-or-tea-on-vintage-table-early-on-picture-id1137365972?k=6&m=1137365972&s=612x612&w=0&h=m61gLuI0gAOh0IRbBxYzfyWgRbXUUTuZHf5sisVArK4=)
