@@ -1,7 +1,7 @@
 ---
 createdAt: 2021-03-01
-title: How to edit the content
-description: And what to expect when running a repo-based CMS
+title: Como editar o conteúdo
+description: E o que esperar ao executar um CMS baseado em repo
 ---
 It is easy to write **markdown**-*enabled* content like this placeholder text, with support for images and even code snippets.
 
@@ -14,7 +14,7 @@ formatDate(dateString) {
 }
 ```
 
-![Placeholder Kitten](https://placekitten.com/800/400)
+![Placeholder Kitten](https://media.istockphoto.com/photos/close-up-of-steaming-cup-of-coffee-or-tea-on-vintage-table-early-on-picture-id1137365972?k=6&m=1137365972&s=612x612&w=0&h=m61gLuI0gAOh0IRbBxYzfyWgRbXUUTuZHf5sisVArK4=)
 
 ### Steps to take:
 
