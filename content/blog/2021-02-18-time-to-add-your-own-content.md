@@ -1,7 +1,7 @@
 ---
 createdAt: 2021-02-18
-title: Time to add your own content
-description: Remove all of the .md-files in the /content folder and go at it!
+title: Hora de adicionar seu próprio conteúdo
+description: Entre na seção de /admin e comece a criar!
 ---
 
 ## Sit liquentibus sinu verbis et spatiarer laedar
