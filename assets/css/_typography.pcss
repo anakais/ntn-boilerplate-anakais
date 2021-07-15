@@ -153,21 +153,25 @@
     & img {
       @apply mx-auto my-4 rounded;
     }
-    & ol > li,
-    & ul > li {
+    & ol > li {
       color: var(--text);
       @apply font-sans leading-normal transition-colors duration-200 ease-in-out;
     }
-    & > ol {
-      @apply list-decimal grid gap-y-2 my-4 ml-4;
-      & ol {
-        @apply list-decimal grid gap-y-1 ml-8 mt-2;
-      }
+    & ul > li {
+      color: var(--text);
+      @apply font-sans leading-normal transition-colors duration-200 ease-in-out;
     }
     & > ul {
       @apply list-disc grid gap-y-2 my-4 ml-4;
       & ul {
         @apply list-disc grid gap-y-1 ml-8 mt-2;
+      }
+    }
+    /*! purgecss start ignore */
+    & > ol {
+      @apply list-decimal grid gap-y-2 my-4 ml-4;
+      & ol {
+        @apply list-decimal grid gap-y-1 ml-8 mt-2;
       }
     }
     & code,
@@ -194,6 +198,7 @@
         background: none;
       }
     }
+    /*! purgecss end ignore */
   }
 
   @screen sm {
