@@ -1,5 +1,5 @@
 ---
-createdAt: 2021-02-28
+createdAt: 2021-02-27T03:00:00.000Z
 title: Fácil resumo do conteúdo
 ---
 Você pode estabelecer um resumo facilmente escrevendo `<!--MORE-->` em lowercase no conteúdo.
